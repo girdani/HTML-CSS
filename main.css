@@ -1,0 +1,32 @@
+*{ /* seleciona todas as ma rcações*/
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    background-color: #1E6C7D;
+    padding: 2em;
+    text-align: center;
+}
+header nav{
+    background-color: #125260;
+    padding: 2em;
+}
+header li{
+    display: inline; /* para colocar um item do lado do outro*/
+}
+header a{
+    color: white;
+}
+main section{ /* criando cards */
+    background-color: #C47969;
+    width: 10em;
+    height: 15em;
+    border-radius: 1em;
+    padding: 2em;
+    margin: 2em;
+    float: left;
+}
+main{
+    width: 70em;
+    margin: 0 auto;
+}
