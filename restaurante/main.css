@@ -1,20 +1,34 @@
 body{
     background-color: #F9F1DC;
+    font-family: Garamond;
 }
 nav{
-    margin-bottom: 2em;
+    margin-bottom: 3em;
+    text-align: center;
 }
 nav ul{
-    text-align: center;
+    list-style-type: none;
 }
 nav li{
     display: inline;
-    font-family: Garamond;
-    font-size: 2.5em;
+    font-size: 3em;
+    padding: 0.5em;
     margin: 3%;
     background-color: #ffffff;
-    padding: 1%;
     border-radius: 5em;
+}
+/* link active visited hover */
+a{
+    text-decoration: None;
+}
+a:visited, a:link{
+    color: black;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
 }
 h1{
     text-align: center;
@@ -31,13 +45,11 @@ figure{
     display: inline;
 }
 h2{
-    font-family: Garamond;
     font-size: 2em;
     text-align: center;
     border-bottom: 3px solid #000000;
 }
 p{
-    font-family: Garamond;
     text-align: center;
     margin-left: 35%;
     margin-right: 35%;
@@ -46,4 +58,21 @@ footer{
     background-color: #ffffff;
     padding: 3em;
     margin: 0;
+}
+table{
+    margin: 3em auto;
+    width: 40%;
+}
+table caption{
+    font-size: 2em
+}
+table tr td:nth-child(2){
+    width: 60%;
+    text-align: center;
+    font-size: 1.5em;
+}
+table tr td:nth-child(3){
+    width: 21.5%;
+    text-align: right;
+    font-size: 1.5em;
 }
