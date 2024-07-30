@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    align-content:center;
+    height:100vh;
+    background-image: linear-gradient(to right, #ff5719, #ff7f50, #ff5719)
+}
+main{
+    text-align: center;
+    width:25em;
+    height:30em;
+    margin: auto;
+    padding:2em;
+    background-color:white;
+    color:black;
+    border-radius:10px
+}
